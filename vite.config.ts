@@ -74,7 +74,8 @@ export default defineConfig(({ command }) => {
 
     resolve: {
       alias: {
-        '@': to('src')
+        '@': to('src'),
+        '@el': to('src')
       }
     }
   }

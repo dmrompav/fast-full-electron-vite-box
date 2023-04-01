@@ -1,5 +1,10 @@
 <script setup lang='ts'>
+import { onMounted } from 'vue';
+import { loaderOff } from '@/utils/loaderOff';
 
+onMounted(() => {
+  loaderOff();
+});
 </script>
 
 <template lang='pug'>

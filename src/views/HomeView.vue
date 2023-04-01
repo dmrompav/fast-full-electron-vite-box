@@ -1,7 +1,5 @@
 <template lang='pug'>
-h3 HomeView
-
-Table(
+Table.custom-class(
   :columns='columns'
   :data='data'
 )
@@ -14,8 +12,12 @@ const columns = [
   { title: 'Password', key: 'password' },
   { title: 'Description', key: 'description' }
 ];
-const data = []
+const data = [];
+
+// const addRow = (params) => {};
+// function removeRow() {};
 </script>
 
 <style lang='sass'>
+
 </style>
